@@ -2,7 +2,7 @@
 
 import sys
 import os
-from pdfrw import PdfReader, PdfWriter, PdfDict, PdfArray, PdfObject, PdfName
+from pdfrw.pdfrw import PdfReader, PdfWriter, PdfDict, PdfArray, PdfObject, PdfName
 
 infile     = sys.argv[1]
 outfile    = "renumbered." + os.path.basename(infile)
