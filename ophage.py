@@ -1,8 +1,14 @@
-#!/usr/bin/env python3
+#!/usr/bin/env python2
 
 import sys
 import os
-from pdfrw.pdfrw import PdfReader, PdfWriter, PdfDict, PdfArray, PdfObject, PdfName
+from pdfrw import PdfReader, PdfWriter, PdfDict, PdfArray, PdfObject, PdfName
+
+if len(sys.argv)<3:
+    print("""Usage: %s file.pdf page_number
+            Will create renumbered.file.pdf in the current directory,
+            with the page numbers shifted by page_number.""" % sys.argv[0])
+    sys.exit(1)
 
 infile     = sys.argv[1]
 outfile    = "renumbered." + os.path.basename(infile)
