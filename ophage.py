@@ -2,7 +2,7 @@
 
 import sys
 import os
-from pdfrw import PdfReader, PdfWriter, PdfDict, PdfArray, PdfObject, PdfName
+from pdfrw.pdfrw import PdfReader, PdfWriter, PdfDict, PdfArray, PdfObject, PdfName
 
 if len(sys.argv)<3:
     print("""Usage: %s file.pdf page_number
