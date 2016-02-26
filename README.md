@@ -2,9 +2,9 @@
 Add page labels to a PDF file
 
 ## Installation
-### Debian / Ubuntu
+#### Debian / Ubuntu
 You can download the (alpha-quality) [deb package](https://github.com/lovasoa/ophage/releases/download/0.1-2/ophage_0.1-2_all.deb).
-### Others
+#### Others
 ```bash
 $ git clone --recursive https://github.com/lovasoa/ophage.git
 ```
