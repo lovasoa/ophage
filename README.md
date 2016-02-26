@@ -6,7 +6,7 @@ Add page labels to a PDF file
 You can download the (alpha-quality) [deb package](https://github.com/lovasoa/ophage/releases/download/0.1-2/ophage_0.1-2_all.deb).
 ### Others
 ```bash
-$ git clone --recursive git@github.com:lovasoa/ophage.git
+$ git clone --recursive https://github.com/lovasoa/ophage.git
 ```
 
 ## Usage
